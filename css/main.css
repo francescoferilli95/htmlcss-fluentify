@@ -20,3 +20,95 @@ h6 {
 }
 
 /*UTILITIES*/
+
+/*LAYOUT*/
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+/*MENU*/
+.menu-inline li {
+    display:inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+.menu-inline li:last-child {
+    margin-right: 0;
+}
+
+/*BUTTONS*/
+.btn {
+    display:inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn.btn-grn {
+    background: #7cbb01;
+    border: 1px solid transparent;
+}
+
+.btn.btn-big {
+    padding: 20px;
+}
+
+/*MAIN HEADER*/
+
+.main-header {
+    line-height: 80px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #0d325a;
+}
+
+.main-header .logo {
+    width: 15%;
+}
+
+.main-header .logo img {
+    vertical-align: middle;
+}
+
+.main-header .nav-center {
+    width: 45%;
+}
+
+.main-header .nav-right {
+    width: 40%;
+    text-align: right;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-header a.btn {
+    line-height: 1;
+}
+
+.main-header a:not(.btn):hover {
+    color: red;
+}
+
