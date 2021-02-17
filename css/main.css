@@ -295,3 +295,8 @@ h6 {
     color: rgba(180, 95, 15, 0.658);
 }
 
+.help {
+    position: fixed;
+    right: 8%;
+    bottom: 0;
+}
