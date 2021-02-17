@@ -109,7 +109,7 @@ h6 {
 }
 
 .main-header a:not(.btn):hover {
-    color: red;
+    color: rgba(180, 95, 15, 0.658);
 }
 
 /*MAIN*/
