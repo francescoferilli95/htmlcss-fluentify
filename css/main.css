@@ -112,3 +112,33 @@ h6 {
     color: red;
 }
 
+/*MAIN*/
+
+/*JUMBOTRON*/
+
+.jumbotron {
+    height: 480px;
+    background: #0d325a;
+    background-image: url('..//img/background-header.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
+}
+
+.jumbotron .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotron .jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.jumbotron .jumbotron-text h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 50px;
+}
