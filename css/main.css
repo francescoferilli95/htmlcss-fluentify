@@ -188,12 +188,31 @@ h6 {
 .container .content-center,
 .container .content-right {
     text-align: center;
+    position: relative;
 }
 
 .info h3 {
    font-size: 25px; 
    color: #7cbb00;
    margin-bottom: 20px;
+}
+
+.content-left,
+.content-center,
+.content-right {
+    height: 435px;
+}
+
+.content-left h3::after,
+.content-center h3::after,
+.content-right h3::after {
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: 31%;
+    height: 1px;
+    width: 20%;
+    border-bottom: 1px solid #8b8b8b;
 }
 
 .info p {
@@ -210,7 +229,7 @@ h6 {
     background-image: url('..//img/mountain.svg');
     background-size: 500px;
     background-repeat: no-repeat;
-    background-position: 20% 20%;
+    background-position: 30% 30%;
 }
 
 .mountain .container {
