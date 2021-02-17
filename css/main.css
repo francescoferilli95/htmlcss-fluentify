@@ -197,6 +197,39 @@ h6 {
 }
 
 .info p {
+    font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/*SECTION TWO*/
+
+.mountain {
+    margin-top:20px;
+    height: 500px;
+    background-image: url('..//img/mountain.svg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+}
+
+.mountain .container {
+    position: relative;
+    height: 100%;
+}
+
+.mountain .mountain-text {
+    position:absolute;
+    right:0;
+    top:5%;
+}
+
+.mountain .mountain-text p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.mountain .mountain-text h2 {
+    font-size: 40px;
+    color: #000;
 }
