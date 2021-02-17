@@ -233,3 +233,46 @@ h6 {
     font-size: 40px;
     color: #000;
 }
+
+/*MAIN FOOTER*/
+
+.main-footer {
+    position:relative;
+    background: #d3d3d3;
+    height: 130px;
+    color: #000;
+    vertical-align: middle;
+}
+
+.footer-text h5 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    text-align: left;
+}
+
+.main-footer .footer-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.footer-right .menu-inline .btn-footer {
+    color: #8b8b8b;
+    display:inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.main-footer .footer-right a:not(.btn.btn-grn):hover {
+    color: rgba(180, 95, 15, 0.658);
+}
+
