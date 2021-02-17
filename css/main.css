@@ -195,3 +195,8 @@ h6 {
    color: #7cbb00;
    margin-bottom: 20px;
 }
+
+.info p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
