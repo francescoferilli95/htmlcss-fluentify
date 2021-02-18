@@ -295,8 +295,13 @@ h6 {
     color: rgba(180, 95, 15, 0.658);
 }
 
-.help {
+.help .btn.btn-grn{
     position: fixed;
     right: 8%;
     bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.footer-right .menu-inline:first-child {
+    color: #8b8b8b;
 }
